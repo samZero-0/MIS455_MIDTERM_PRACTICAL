@@ -40,7 +40,6 @@ nav>ul>li>a:hover {
 }
 
 
-
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -68,3 +67,14 @@ nav>ul>li>a:hover {
 .contact-form input[type="submit"]:hover {
     background-color: #555;
 }
+
+.montserrat-google_font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1{
+    font-family: "Montserrat", sans-serif;
+  }
