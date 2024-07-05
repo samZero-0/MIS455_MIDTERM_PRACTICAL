@@ -1,16 +1,19 @@
-header, footer {
+header {
     
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px 0;
+    margin-bottom: 50px;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
     width: 100%;
-    height: 50px;
 }
+
 
 nav>ul{
     list-style: none;
@@ -36,4 +39,23 @@ nav>ul>li>a{
 
 nav>ul>li>a:hover {
     background-color: #f0bbbb;
+}
+
+
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    background-color: rgb(232, 251, 251);
+    background-image: url("./bg.avif");
+}
+
+.home-content img {
+    max-width: 45%;
+}
+
+.home-content div {
+    max-width: 45%;
 }
